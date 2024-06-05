@@ -1,12 +1,13 @@
-function setup() { 
-    createCanvas(400, 400); 
-  }
+function setup() {  
+  createCanvas(400, 400); 
+  background("white") 
+}
+
+function draw() { 
+  stroke("blue");
+  fill ("Red"); 
   
-  function draw() { 
-    stroke("blue"); 
-    fill ("Red");  
-    
-    if(mouseIsPressed) { 
-      rect (mouseX, mouseY, 20, 20); 
-    }
+  if(mouseIsPressed) { 
+    rect (mouseX, mouseY, 20, 20); 
   }
+}
